@@ -94,7 +94,7 @@ p {
   display: block;
   background-color: black;
   color: white;
-  animation: moveToLeft 1s forwards ;
+  animation: moveToUp 1s forwards ;
   position: absolute;
 }
 
@@ -103,7 +103,7 @@ h1 {
 }
 
 
-@keyframes moveToLeft {
+@keyframes moveToUp {
   0% {
     transform: translateY(0);
     opacity: 0;
